@@ -1,0 +1,8 @@
+---
+applications:
+- name: sap-voice
+  random-route: false
+  path: 02-voice
+  memory: 512M
+  buildpacks:
+  - nodejs_buildpack
